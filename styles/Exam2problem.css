@@ -11,7 +11,7 @@ body {
 }
 #header {
     padding:10px;  
-/*    background:#b8e6e6;    */
+    background:#b8e6e6;   
 
 }
 #container, #container-fluid {
@@ -38,12 +38,13 @@ body {
     left:0;
     text-align: center;
     padding-right: 15px;
-  padding-left: 15px;
+    padding-left: 15px;
     font-style: italic;
-/*    background-color: #3d4c4c;  */
+    background-color: #3d4c4c;
     color: #ffffff;
- /*   background:#3d4c4c;  */
+    background:#3d4c4c;  
     text-shadow:1px 1px 0 rgba(255,255,255,0.3);
+    padding: 0px 15px 25px 10px;
 }
 
 

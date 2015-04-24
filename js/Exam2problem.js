@@ -129,11 +129,11 @@ function CreateCategory() {
 function CreateCategoriesResult(output2) {
     
     if (output2.WasSuccessful  == 1) {
-        document.getElementById("result2").innerHTML = "The operation was successful!! ";
+        document.getElementById("result2").innerHTML = "<h2 class='text-success'>The create operation was successful!! </h2>";
          
         }
     else  if (output2.WasSuccessful == 0) {
-        document.getElementById("result2").innerHTML = "The operation was not successful! unspecified error  " + output2.Exception;
+        document.getElementById("result2").innerHTML = "<h2 class='text-danger'>The create operation was not successful! unspecified error </h2> " + output2.Exception;
         }
     
 }
